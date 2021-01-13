@@ -56,9 +56,9 @@
 Aplikasi Perpus is a Android App, which is made in Android Studio with CI4 and use MySql Database. We created this Android project to fulfill our course assignments at a university.
 
 ### Our Team
-- Achmad Yusuf Bagus Setiawan (18051204010)
-- Fitrah Amaliah              (18051204007)
-- Jeptika Herni Niasmara      (18051204004)
+- Achmad Yusuf Bagus Setiawan (18051204010) [Go to Profile](https://github.com/abdullah1006)
+- Fitrah Amaliah              (18051204007) [Go to Profile](https://github.com/Fitrahamaliah)
+- Jeptika Herni Niasmara      (18051204004) [Go to Profile](https://github.com/jeptika)
 
 
 ### Built With
