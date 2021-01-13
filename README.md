@@ -103,26 +103,20 @@ php spark serve
 php spark migrate
 ```
 
-7. Create Data Dummy
+7. Create Data Dummy, you can import 'db_anggota.sql' to PhpMyAdmin
 
-```php
-php spark db:seed UserSeeder
-```
-
-8. Or you can import 'db_anggota.sql' to PhpMyAdmin
-
-9. Test your Rest API on your browser
+8. Test your Rest API on your browser
 http://localhost/crud_ci4/public/users or http://localhost:8080/users
 
-10. Or test with [Postman](https://www.postman.com/downloads/). Make sure request is working properly.
+9. Or test with [Postman](https://www.postman.com/downloads/). Make sure request is working properly.
 - GET     -> http://localhost/crud_ci4/public/users or http://localhost:8080/users
 - POST    -> http://localhost/crud_ci4/public/users/create or http://localhost:8080/users/create
 - PUT     -> http://localhost/crud_ci4/public/users/{id} or http://localhost:8080/users/{id}
 - DELETE  -> http://localhost/crud_ci4/public/users/{id} or http://localhost:8080/users/{id}
 
-11. Open Android Studio
+10. Open Android Studio
 
-12. Change your ip in RetroServer.java and network_security_config.xml
+11. Change your ip in RetroServer.java and network_security_config.xml
 
 ## More Screenshot
 
