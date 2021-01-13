@@ -15,7 +15,7 @@
     <a href="https://github.com/abdullah1006/Aplikasi-Perpus"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/abdullah1006/Aplikasi-Perpus">View Demo</a>
+    <a href="https://youtu.be/IEWqL2wv8kM">View Demo</a>
     ·
     <a href="https://github.com/abdullah1006/Aplikasi-Perpus/issues">Report Bug</a>
     ·
