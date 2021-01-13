@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddActivity"
+    android:paddingHorizontal="20dp"
+    android:background="@color/black2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/layoutPicture"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_centerInParent="true"
+                    android:id="@+id/picture"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/ic_user" />
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fabChoosePic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/ic_baseline_add"
+                    app:fabSize="mini"/>
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/tv_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Jabatan"
+                android:textColor="@color/lightBlue"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/sp_jabatan"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:entries="@array/jabatan"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Nama"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/lightBlue"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/lightBlue"
+                android:hint="Masukkan Nama"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray2"
+                android:textSize="14sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="NIM"
+                android:textColor="@color/lightBlue"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_nim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/lightBlue"
+                android:hint="Masukkan NIM"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray2"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Jenis Kelamin"
+                android:textColor="@color/lightBlue"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/sp_jenisKelamin"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:entries="@array/jenis_kelamin"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Alamat"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/lightBlue"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/et_alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/lightBlue"
+                android:hint="Masukkan Alamat"
+                android:inputType="text"
+                android:fontFamily="@font/poppins_light"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray2"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_marginTop="10dp"
+                android:text="No Telepon"
+                android:textColor="@color/lightBlue"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_telp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/lightBlue"
+                android:hint="Masukkan No Telepon"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray2"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Anggota Perpus</string>
+    <string-array name="jenis_kelamin">
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string-array name="jabatan">
+        <item>Ketua</item>
+        <item>Wakil Ketua</item>
+        <item>Sekertaris</item>
+        <item>Bendahara</item>
+        <item>Anggota</item>
+    </string-array>
+</resources>
